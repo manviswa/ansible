@@ -1,0 +1,7 @@
+---
+
+  - name: ping tes
+    hosts: viswa
+    tasks:
+      - name: ping test
+        ansible.builtin.ping:
