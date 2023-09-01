@@ -3,7 +3,7 @@
   # This is Play level variables, map
   vars_files:
   - variables.yaml
-  - variables.yaml
+  - variables1.yaml
   tasks:
   - name: print hello world
     ansible.builtin.debug:
