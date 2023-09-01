@@ -1,0 +1,14 @@
+---
+
+ - name: installing nginx server
+   hosts: viswa
+   tasks:
+     - name: installing nginx
+       ansible.builtin.yum:
+        name: nginx
+        state: latest
+
+     - name: starting the service
+       ansible.builtin.service:
+         name: httpd
+         state: started
