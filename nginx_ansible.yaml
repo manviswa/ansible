@@ -11,5 +11,5 @@
 
      - name: starting the service
        ansible.builtin.service:
-         name: httpd
+         name: nginx
          state: started
