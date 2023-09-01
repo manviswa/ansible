@@ -2,6 +2,7 @@
 
  - name: installing nginx server
    hosts: viswa
+   become: yes
    tasks:
      - name: installing nginx
        ansible.builtin.yum:
